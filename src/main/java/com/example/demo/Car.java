@@ -1,20 +1,24 @@
 package com.example.demo;
 
 public class Car {
-	private int hayasa;
-	private int iro;
-	public int getHayasa() {
-		return hayasa;
-	}
-	public void setHayasa(int hayasa) {
-		this.hayasa = hayasa;
-	}
-	public int getIro() {
-		return iro;
-	}
-	public void setIro(int iro) {
-		this.iro = iro;
+	private int speed;
+	private int color;
+
+	@Override
+	public String toString() {
+		return "Car [speed=" + speed + ", color=" + color + "]";
 	}
 	
-
+	public int getSpeed() {
+		return speed;
+	}
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	public int getColor() {
+		return color;
+	}
+	public void setColor(int color) {
+		this.color = color;
+	}
 }

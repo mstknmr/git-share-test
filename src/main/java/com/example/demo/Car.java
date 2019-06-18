@@ -1,21 +1,24 @@
 package com.example.demo;
 
 public class Car {
-	public  int supido;
-	public  int kara;
-	public int getSupido() {
-		return supido;
-	}
-	public void setSupido(int supido) {
-		this.supido = supido;
-	}
-	public int getKara() {
-		return kara;
-	}
-	public void setKara(int kara) {
-		this.kara = kara;
-	}
-	
-	
+	private int speed;
+	private int color;
 
+	@Override
+	public String toString() {
+		return "Car [speed=" + speed + ", color=" + color + "]";
+	}
+	
+	public int getSpeed() {
+		return speed;
+	}
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	public int getColor() {
+		return color;
+	}
+	public void setColor(int color) {
+		this.color = color;
+	}
 }

@@ -1,20 +1,21 @@
 package com.example.demo;
 
 public class Car {
-	private int hayasa;
-	private int iro;
-	public int getHayasa() {
-		return hayasa;
+	public  int supido;
+	public  int kara;
+	public int getSupido() {
+		return supido;
 	}
-	public void setHayasa(int hayasa) {
-		this.hayasa = hayasa;
+	public void setSupido(int supido) {
+		this.supido = supido;
 	}
-	public int getIro() {
-		return iro;
+	public int getKara() {
+		return kara;
 	}
-	public void setIro(int iro) {
-		this.iro = iro;
+	public void setKara(int kara) {
+		this.kara = kara;
 	}
+	
 	
 
 }
